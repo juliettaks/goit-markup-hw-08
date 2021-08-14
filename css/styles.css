@@ -4,6 +4,8 @@
   --main-text-color: #757575;
   --accent-color: #2196f3;
   --background-color: #2f303a;
+  --background-color-second: #f5f4fa;
+  --adress-color: #ffffff;
 }
 
 body {
@@ -40,7 +42,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #212121;
+  color: var(--main-title-color);
 }
 
 .header-link:hover,
@@ -73,18 +75,21 @@ body {
 /* main */
 
 .hero-button {
+  font-family: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
-  color: #ffffff;
+  color: var(--secondary-title-color);
   background-color: var(--accent-color);
   cursor: pointer;
 }
 
 .hero-title {
+  text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
   color: var(--secondary-title-color);
 }
 
@@ -150,7 +155,7 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  color: #ffffff;
+  color: var(--secondary-title-color);
 }
 
 .adress {
@@ -161,7 +166,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--adress-color);
 }
 
 .footer-link {
@@ -169,4 +174,53 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* Headers */
+
+.header-link-portfolio {
+  color: var(--accent-color);
+}
+
+.header-link-studio {
+  color: var(--accent-color);
+}
+
+.header-link-portfolio {
+  color: var(--accent-color);
+}
+
+/* Portfolio.html */
+
+.portfolio-buton {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+  background-color: var(--background-color-second);
+}
+
+.portfolio-buton:focus,
+.portfolio-buton:hover {
+  color: var(--secondary-title-color);
+  background-color: var(--accent-color);
+}
+
+.project-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-title-color);
+}
+
+.project-type {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+
+  color: var(--main-text-color);
 }
