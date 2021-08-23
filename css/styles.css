@@ -13,6 +13,22 @@ body {
   color: var(--main-title-color);
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
 /* header */
 
 .list {
@@ -21,6 +37,36 @@ body {
 
 .link {
   text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  margin-right: 93px;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }
 
 .header-logo {
