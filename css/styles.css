@@ -373,11 +373,13 @@ ul {
 }
 
 .project-name {
+  display: block;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-title-color);
+  margin-bottom: 4px;
 }
 
 .project-type {
@@ -387,4 +389,28 @@ ul {
   letter-spacing: 0.03em;
 
   color: var(--main-text-color);
+}
+.button-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.item-button:not(:last-child) {
+  display: flex;
+  margin-right: 8px;
+}
+
+.list-items-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item-portfolio {
+  margin: 15px 15px;
+  /* border: 1px solid #eeeeee; */
+}
+
+.item-text-portfolio {
+  padding: 20px;
 }
