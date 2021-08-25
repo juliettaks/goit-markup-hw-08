@@ -286,20 +286,25 @@ ul {
 
 /* footer */
 
-.footer {
+.footer-background {
   background-color: var(--background-color);
+  padding: 60px;
 }
 
 .footer-logo {
+  display: block;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   color: var(--secondary-title-color);
+  margin-left: 215px;
+  margin-bottom: 20px;
 }
 
 .adress {
+  display: block;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -308,6 +313,8 @@ ul {
   letter-spacing: 0.03em;
 
   color: var(--adress-color);
+  margin-left: 215px;
+  margin-bottom: 9px;
 }
 
 .footer-link {
@@ -315,8 +322,14 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  margin-left: 215px;
 }
 
+.footer-item:not(:last-child) {
+  display: block;
+
+  margin-bottom: 9px;
+}
 /* Headers */
 
 .header-link-portfolio {
