@@ -346,6 +346,10 @@ ul {
 
 /* Portfolio.html */
 
+.main-portfolio {
+  padding: 94px 215px;
+}
+
 .portfolio-buton {
   font-family: inherit;
   font-weight: 500;
