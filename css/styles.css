@@ -44,12 +44,12 @@ ul {
   margin-left: 15px;
   margin-right: 15px;
   margin: 0 auto;
-  justify-content: center;
 }
 
 .header .container {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .line {
@@ -189,6 +189,12 @@ ul {
 
 .list-about-us {
   display: flex;
+  margin: 94px;
+  justify-content: center;
+}
+
+.list-item-about-us:not(:last-child) {
+  margin-right: 30px;
 }
 
 .heading-about-us {
@@ -199,6 +205,7 @@ ul {
   text-transform: uppercase;
 
   color: var(--main-title-color);
+  margin-bottom: 10px;
 }
 
 .text-about-us {
@@ -211,38 +218,70 @@ ul {
 }
 
 .hero-two {
+  display: flex;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
 
   color: var(--main-title-color);
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 .doings {
   display: flex;
+  justify-content: center;
+  margin-bottom: 94px;
+}
+
+.doings-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team {
+  background-color: #f5f4fa;
+  padding: 94px;
 }
 
 .team-list {
   display: flex;
+  justify-content: center;
+}
+
+.team-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-item {
+  background-color: var(--secondary-title-color);
+}
+
+.team-img {
+  margin-bottom: 30px;
 }
 
 .team-name {
+  display: flex;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
 
   color: var(--main-title-color);
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
 .team-position {
+  display: flex;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
 
   color: var(--main-text-color);
+  justify-content: center;
 }
 
 /* footer */
