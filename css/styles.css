@@ -255,6 +255,7 @@ ul {
 
 .team-item {
   background-color: var(--secondary-title-color);
+  padding-bottom: 30px;
 }
 
 .team-img {
