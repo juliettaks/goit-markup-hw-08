@@ -178,9 +178,8 @@ ul {
   margin: 0px auto 30px auto;
 }
 
-
 .hero {
-  background-color: var(--background-color); 
+  background-color: var(--background-color);
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -261,11 +260,8 @@ ul {
 
 .team-item {
   background-color: var(--secondary-title-color);
-  
 }
 
-
-}
 .team-naming-centration {
   align-content: center;
   padding-top: 30px;
@@ -273,7 +269,6 @@ ul {
 }
 
 .team-name {
-  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -295,7 +290,7 @@ ul {
 
 /* footer */
 
-.footer{
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -313,7 +308,7 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   color: var(--secondary-title-color);
-  
+
   margin-bottom: 20px;
 }
 
@@ -327,7 +322,7 @@ ul {
   letter-spacing: 0.03em;
 
   color: var(--adress-color);
-  
+
   margin-bottom: 9px;
 }
 
@@ -336,7 +331,6 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  
 }
 
 .footer-item:not(:last-child) {
@@ -412,7 +406,6 @@ ul {
 }
 
 .item-button:not(:last-child) {
-
   margin-right: 8px;
 }
 
@@ -424,12 +417,11 @@ ul {
 
 .item-portfolio {
   margin: 15px;
-  
 }
 
 .item-text-portfolio {
   padding: 20px;
-border-right: 1px solid #eeeeee;
-border-left: 1px solid #eeeeee;
-border-bottom: 1px solid #eeeeee;;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
