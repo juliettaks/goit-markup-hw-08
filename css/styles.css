@@ -342,6 +342,50 @@ img {
   background-color: var(--accent-color);
 }
 
+.all-clients {
+  padding: 94px 215px;
+}
+.clients {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  margin-bottom: 50px;
+}
+
+.clients-link {
+  display: block;
+  padding: 16px 32px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.client-list {
+  display: flex;
+  justify-content: center;
+}
+
+.clients-link-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.client-icon {
+  fill: #afb1b8;
+}
+
+.clients-link:focus .client-icon,
+.clients-link:hover .client-icon {
+  fill: var(--accent-color);
+}
+
+.clients-link:focus,
+.clients-link:hover {
+  border-color: var(--accent-color);
+}
+
 /* footer */
 
 .footer {
@@ -352,6 +396,14 @@ img {
 .footer-background {
   background-color: var(--background-color);
   padding: 60px 0px;
+}
+
+.footer-items {
+  display: flex;
+}
+
+.footer-item:not(:last-child) {
+  margin-right: 70px;
 }
 
 .footer-logo {
