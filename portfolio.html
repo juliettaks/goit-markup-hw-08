@@ -17,9 +17,9 @@
   </head>
 
   <body>
-      <header class="header line">
+       <header class="header">
       
-      <div class="container ">
+      <div class="container line">
       
           <nav class="header-navigation">
             <a lang="en" class="header-logo link" href="./index.html"
@@ -47,13 +47,18 @@
 
           <ul class="header-right list">
             <li class="header-right-item">
-              <a class="header-mail link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
+              
+              <a class="header-mail link" href="mailto:info@devstudio.com">
+               <svg class="mail-icon">
+                <use href="./images/sprite.svg#icon-envelope-hover-1"></use>
+              </svg>info@devstudio.com</a
               >
             </li>
             <li class="header-right-item">
-              <a class="header-tel link" href="tel:+380961111111"
-                >+38 096 111 11 11</a
+              <a class="header-tel link" href="tel:+380961111111"> 
+                <svg class="tel-icon">
+                <use href="./images/sprite.svg#icon-smartphone-1"></use>
+              </svg>+38 096 111 11 11</a
               >
             </li>
           </ul>
@@ -85,7 +90,7 @@
      
       <ul class="list-items-portfolio list">
         <li class="item-portfolio">
-          <a class="link" href="">
+          <a class="shadow-cards link" href="">
             <img
               src="./images/tecnokriak.jpg"
               alt="Фото технокряк"
@@ -101,7 +106,7 @@
         </li>
 
         <li class="item-portfolio">
-          <a class="link" href="">
+          <a class="link shadow-cards" href="">
             <img
               lang="en"
               src="./images/new-orlean.jpg"
@@ -117,7 +122,7 @@
         </li>
 
         <li class="item-portfolio">
-          <a class="link" href="">
+          <a class="link shadow-cards" href="">
             <img
               lang="en"
               src="./images/seafood.jpg"
@@ -133,7 +138,7 @@
 
 
   <li class="item-portfolio">
-          <a class="link" href="">
+          <a class="link shadow-cards" href="">
             <img
               src="./images/prime.jpg"
               alt="Prime"
@@ -148,7 +153,7 @@
         </li>
 
         <li class="item-portfolio">
-          <a class="link" href="">
+          <a class="link shadow-cards" href="">
             <img
               src="./images/boxes.jpg"
               alt="Boxes"
@@ -163,7 +168,7 @@
         </li>
 
         <li class="item-portfolio">
-          <a class="link" href="">
+          <a class="link shadow-cards" href="">
             <img
               src="./images/inspiration.jpg"
               alt="Inspiration has no Borders"
@@ -180,7 +185,7 @@
 
         
         <li class="item-portfolio">
-          <a class="link" href="">
+          <a class="link shadow-cards" href="">
             <img
               src="./images/limited.jpg"
               alt="Limited Edition"
@@ -195,7 +200,7 @@
         </li>
 
         <li class="item-portfolio">
-          <a class="link" href="">
+          <a class="link shadow-cards" href="">
             <img src="./images/lab.jpg" alt="LAB" width="370" height="294" />
 
             <div class="item-text-portfolio">
@@ -205,7 +210,7 @@
         </li>
 
         <li class="item-portfolio">
-          <a class="link" href="">
+          <a class="link shadow-cards" href="">
             <img
               src="./images/business.jpg"
               alt="Growing Business"
@@ -224,8 +229,10 @@
     </section>
     </main>
 
-     <footer class="footer footer-background">
+<footer class="footer footer-background">
         <div class="container">
+          <ul class="footer-items list">
+            <li class="footer-item">
         <a lang="en" class="footer-logo link" href=""
           ><span class="logo-first">Web</span>Studio</a>
 
@@ -243,7 +250,50 @@
             >
           </li>
         </ul>
+      </li>
+      
+      
+
+    <li>
+      <div class="diretion">
+        <h3 class="conection">присоединяйтесь</h3>
+        <ul class="socials-list-footer list">
+                <li class="social-link-item-footer">
+                  <a class="socials-link-footer link" href="">
+                    <svg class="icon-social-footer" width="20" height="20"> 
+                      <use href="./images/sprite.svg#icon-instagram-2-1"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-link-item-footer">
+                  <a class="socials-link-footer link" href="">
+                    <svg class="icon-social-footer" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-twitter-1-1"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-link-item-footer">
+                  <a class="socials-link-footer link" href="">
+                    <svg class="icon-social-footer" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-facebook-1-1"></use>
+                    </svg>
+                  </a></li>
+                <li class="social-link-item-footer">
+                  <a class="socials-link-footer link" href="">
+                    <svg class="icon-social-footer" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-linkedin-1-1"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+              </div>
+            </li>
+        
+
+
+      </ul>
         </div>
       </footer>
+    
   </body>
 </html>
