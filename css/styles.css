@@ -126,12 +126,14 @@ img {
   width: 16px;
   height: 10px;
   margin-right: 10px;
+  fill: #757575;
 }
 
 .tel-icon {
   width: 12px;
   height: 16px;
   margin-right: 10px;
+  fill: #757575;
 }
 
 .header-link {
