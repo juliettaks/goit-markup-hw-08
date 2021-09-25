@@ -560,13 +560,11 @@ img {
 
 .header-link-portfolio {
   color: var(--accent-color);
+  border-bottom: 4px solid var(--accent-color);
+  border-radius: 2px;
 }
 
 .header-link-studio {
-  color: var(--accent-color);
-}
-
-.header-link-portfolio {
   color: var(--accent-color);
 }
 
@@ -642,6 +640,8 @@ img {
 }
 
 .item-text-portfolio {
+  display: block;
+  z-index: 2;
   padding: 20px;
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
@@ -653,4 +653,38 @@ img {
   display: block;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.box {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.box:hover .overlay {
+  transform: translatey(0);
+}
+
+.overlay {
+  display: flex;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(33, 150, 243, 0.9);
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1.55;
+  align-items: center;
+  justify-content: center;
+
+  color: #ffffff;
+  transform: translatey(+100%);
+  transition: transform 250ms ease;
+}
+
+.text-pudding {
+  padding: 63px 24px;
 }
