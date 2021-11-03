@@ -145,6 +145,11 @@ img {
   fill: #757575;
 }
 
+.line {
+  position: relative;
+  border: none;
+}
+
 .header-link {
   font-weight: 500;
   font-size: 14px;
@@ -560,7 +565,16 @@ img {
 
 .header-link-portfolio {
   color: var(--accent-color);
-  border-bottom: 4px solid var(--accent-color);
+  display: block;
+}
+.header-link-portfolio::after {
+  content: "";
+  display: block;
+  width: 100%;
+  bottom: 0;
+  height: 4px;
+  background-color: var(--accent-color);
+  position: absolute;
   border-radius: 2px;
 }
 
