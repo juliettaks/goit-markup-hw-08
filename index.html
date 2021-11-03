@@ -79,7 +79,7 @@
           <div class="container hero-background">
             
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button class="hero-button" type="button">Заказать услугу</button>
+          <button data-modal-open class="hero-button" type="button">Заказать услугу</button>
         </div>
         </section>
       
@@ -433,6 +433,14 @@
         </div>
         </section>
       </div>
+
+      <div data-modal class="backdrop is-hidden">
+        <div class="modal">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus praesentium voluptate nesciunt explicabo inventore corporis rem deleniti modi in eligendi, architecto iste sit. Reiciendis placeat at quasi. Fugiat repellendus dolores id fuga amet rem, incidunt eaque, soluta porro consectetur odit ab temporibus nihil debitis magnam ipsam molestiae nemo, molestias vitae!</p>
+       <button data-modal-close class="close-button">X</button>
+</div>
+
+      </div>
     </main>
 
     
@@ -502,6 +510,6 @@
         </div>
       </footer>
     
-    
+    <script src="./js/modal.js"></script>
   </body>
 </html>
