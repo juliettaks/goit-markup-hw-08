@@ -740,4 +740,7 @@ img {
   top: 8px;
   right: 8px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
