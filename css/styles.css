@@ -711,6 +711,12 @@ img {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 3;
+  opacity: 1;
+  transition: opacity 250ms linear;
+}
+
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0.9);
 }
 
 .backdrop.is-hidden {
@@ -725,8 +731,10 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(1);
   border-radius: 4px;
+
+  transition: transform 250ms;
 }
 
 .close-button {
