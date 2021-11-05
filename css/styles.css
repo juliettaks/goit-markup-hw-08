@@ -11,11 +11,11 @@
 @keyframes animation {
 }
 
-:hover,
+/* :hover,
 :focus {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 body {
   font-family: "Roboto", sans-serif;
@@ -65,10 +65,6 @@ img {
   align-items: center;
 }
 
-.line {
-  border-bottom: 1px solid #ececec;
-}
-
 .header {
   background-color: var(--secondary-title-color);
 }
@@ -86,6 +82,8 @@ img {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-right {
@@ -100,6 +98,8 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
   align-items: center;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-logo {
@@ -136,6 +136,8 @@ img {
   height: 12px;
   margin-right: 10px;
   fill: #757575;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tel-icon {
@@ -143,11 +145,13 @@ img {
   height: 16px;
   margin-right: 10px;
   fill: #757575;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .line {
   position: relative;
-  border: none;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-link {
@@ -397,6 +401,8 @@ img {
   justify-content: center;
   border-radius: 50%;
   background-color: #ffffff;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-social {
@@ -432,6 +438,8 @@ img {
   padding: 16px 32px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-list {
@@ -445,6 +453,8 @@ img {
 
 .client-icon {
   fill: #afb1b8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:focus .client-icon,
@@ -531,6 +541,8 @@ img {
   border: none;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-link-footer:hover,
@@ -603,6 +615,8 @@ img {
   padding-top: 6px;
   border: none;
   border-radius: 4px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-buton:focus,
