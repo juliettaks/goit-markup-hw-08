@@ -516,6 +516,7 @@ img {
 .footer-items {
   display: flex;
   align-items: baseline;
+  justify-content: center;
 }
 
 .footer-item:not(:last-child) {
@@ -936,5 +937,55 @@ img {
 }
 
 .reverse {
+  display: flex;
+}
+
+.subscribe {
+  margin-left: 93px;
+}
+
+.subscribe input {
+  height: 50px;
+  width: 358px;
+  border-radius: 4px;
+  fill: #2f303a;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding-left: 16px;
+  background-color: #2f303a;
+}
+
+.subscribe input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+}
+
+.subscribe-button {
+  margin-left: 12px;
+
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--secondary-title-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  padding-left: 32px;
+  padding-bottom: 10px;
+  padding-right: 32px;
+  padding-top: 10px;
+  border-radius: 4px;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.icon-send {
+  margin-left: 10px;
+}
+
+.subscribe-form {
   display: flex;
 }
