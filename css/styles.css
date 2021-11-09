@@ -858,6 +858,7 @@ img {
   height: 15px;
   border: none;
   margin: 0 8.38px 0 0;
+  cursor: default;
 }
 
 .send-button {
@@ -921,6 +922,7 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   margin-right: 8.38px;
+  cursor: pointer;
 }
 
 .checkbox:checked ~ .icon-check {
