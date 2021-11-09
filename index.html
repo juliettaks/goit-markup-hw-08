@@ -440,17 +440,26 @@
             <p class="form-text">Оставьте свои данные, мы вам перезвоним</p>
               <label class="labels">
                Имя
-                <input type="text" name="name" />
+                  <input type="text" name="name"/>
+                       <svg class="icon-name" width="12" height="12">
+                      <use href="./images/sprite.svg#icon-name-icon"></use>
+                    </svg> 
               </label>
 
               <label class="labels">
                   Телефон
                   <input type="tel" name="tel" />
+                   <svg class="icon-name" width="12" height="12">
+                      <use href="./images/sprite.svg#icon-tel-icon"></use>
+                    </svg> 
               </label>
 
               <label class="labels">
                   Почта
                   <input type="email" name="email" />
+                   <svg class="icon-name" width="12" height="12">
+                      <use href="./images/sprite.svg#icon-mail-icon"></use>
+                    </svg> 
               </label>
 
               <label class="labels">
@@ -461,8 +470,15 @@
              
               
               <label class="labels">
-               <input type="checkbox" name="contract" value="contract" />
-               <p class="contract-text"> Соглашаюсь с рассылкой и принимаю  <div> <a class="link-contract" href="">  Условия договора</a></div></p>
+               <input class="checkbox" type="checkbox" name="contract" value="contract" />
+                
+<div class="reverse">
+               <p class="contract-text"> Соглашаюсь с рассылкой и принимаю </p>
+               <div> 
+                 <a class="link-contract" href="">  Условия договора</a></div></div>
+             <svg class="icon-check" width="16" height="15">
+                      <use href="./images/sprite.svg#icon-check"></use>
+                    </svg> 
               </label>
               
 
@@ -473,7 +489,7 @@
 
 
        <button data-modal-close type="button" class="close-button">
-         <svg class="close-icon" width="18" height="18">
+         <svg class="close-icon" width="11" height="11">
                       <use href="./images/sprite.svg#icon-vector"></use>
                     </svg>
        </button>

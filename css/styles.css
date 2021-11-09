@@ -11,12 +11,6 @@
 @keyframes animation {
 }
 
-/* :hover,
-:focus {
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
 body {
   font-family: "Roboto", sans-serif;
   color: var(--main-title-color);
@@ -767,6 +761,16 @@ img {
   align-items: center;
 }
 
+.close-button:hover .close-icon {
+  fill: var(--accent-color);
+}
+
+.close-icon {
+  fill: var(--main-title-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .form {
   display: flex;
   margin: 40px;
@@ -801,6 +805,7 @@ img {
   letter-spacing: 0.01em;
 
   color: #757575;
+  position: relative;
 }
 
 .form input,
@@ -811,6 +816,19 @@ img {
   box-sizing: border-box;
   border-radius: 4px;
   cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form input {
+  padding-left: 42px;
+}
+
+.form input:hover,
+.form textarea:hover,
+.form input:focus,
+.form textarea:focus {
+  border: 1px solid var(--accent-color);
 }
 
 .form textarea::placeholder {
@@ -838,7 +856,7 @@ img {
 .form input[type="checkbox"] {
   width: 16px;
   height: 15px;
-  border: 2px solid #212121;
+  border: none;
   margin: 0 8.38px 0 0;
 }
 
@@ -870,4 +888,51 @@ img {
 
   color: var(--accent-color);
   margin-left: 5px;
+}
+
+.labels {
+  position: relative;
+}
+
+.icon-name {
+  position: absolute;
+  top: 55%;
+  left: 14px;
+  fill: var(--main-title-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.labels:hover .icon-name,
+.labels:focus .icon-name {
+  fill: var(--accent-color);
+}
+
+.checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: absolute;
+}
+
+.icon-check {
+  border: 2px solid black;
+  border-radius: 3px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  margin-right: 8.38px;
+}
+
+.checkbox:checked ~ .icon-check {
+  background: var(--accent-color);
+  border: 2px solid var(--accent-color);
+}
+
+.labels:nth-last-child(2) {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.reverse {
+  display: flex;
 }
