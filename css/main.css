@@ -137,4 +137,97 @@ body {
 .header-right__tel:hover .header-right__tel__icon {
   fill: #2196f3;
 }
+
+.socials-list__item-link:hover .socials-list__icon,
+.socials-list__item-link:focus .socials-list__icon {
+  fill: #ffffff;
+}
+
+.socials-list__item-link:hover, .socials-list__item-link:focus {
+  background-color: #2196f3;
+}
+
+.all-clients__link:focus .all-clients__icon,
+.all-clients__link:hover .all-clients__icon {
+  fill: #2196f3;
+}
+
+.all-clients__link:hover, .all-clients__link:focus {
+  border-color: #2196f3;
+}
+
+.socials-list__item-link-footer:hover, .socials-list__item-link-footer:focus {
+  background-color: #2196f3;
+}
+
+.button-list__button:focus, .button-list__button:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.portfolio-items-list__box:hover .portfolio-items-list__overlay {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.modal__close-button:hover .modal__close-icon {
+  fill: #2196f3;
+}
+
+.modal__form input:hover, .modal__form input:focus {
+  border: 1px solid #2196f3;
+}
+
+.modal__form input[type="checkbox"] {
+  width: 16px;
+  height: 15px;
+  border: none;
+  margin: 0 8.38px 0 0;
+  cursor: default;
+}
+
+.modal__form textarea:hover, .modal__form textarea:focus {
+  border: 1px solid #2196f3;
+}
+
+.modal__form input:hover + .modal__icon-name {
+  fill: #2196f3;
+}
+
+.modal__labels:hover .modal__icon-name,
+.modal__icon-name .modal__labels:focus {
+  fill: #2196f3;
+}
+
+.modal-checkbox:checked ~ .modal-checkbox__icon-check {
+  background: #2196f3;
+  border: 2px solid #2196f3;
+}
+
+.header-list__active::after {
+  content: "";
+  display: block;
+  width: 100%;
+  bottom: 0;
+  height: 4px;
+  background-color: #2196f3;
+  position: absolute;
+  border-radius: 2px;
+}
+
+.modal__form textarea::-webkit-input-placeholder {
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.modal__form textarea:-ms-input-placeholder {
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.modal__form textarea::-ms-input-placeholder {
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.modal__form textarea::placeholder {
+  color: rgba(117, 117, 117, 0.5);
+}
 /*# sourceMappingURL=main.css.map */

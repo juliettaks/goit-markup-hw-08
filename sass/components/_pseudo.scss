@@ -1,0 +1,157 @@
+.header-list__link {
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.header-right__mail {
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.header-right__tel {
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.header-right__mail__icon {
+  .header-right__mail:hover &,
+  .header-right__mail:focus & {
+    fill: $accent-color;
+  }
+}
+
+.header-right__tel__icon {
+  .header-right__tel:focus &,
+  .header-right__tel:hover & {
+    fill: $accent-color;
+  }
+}
+
+.socials-list__icon {
+  .socials-list__item-link:hover &,
+  .socials-list__item-link:focus & {
+    fill: #ffffff;
+  }
+}
+
+.socials-list__item-link {
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}
+
+.all-clients__icon {
+  .all-clients__link:focus &,
+  .all-clients__link:hover & {
+    fill: $accent-color;
+  }
+}
+
+.all-clients__link {
+  &:hover,
+  &:focus {
+    border-color: $accent-color;
+  }
+}
+
+.socials-list__item-link-footer {
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}
+
+.button-list__button {
+  &:focus,
+  &:hover {
+    color: $secondary-title-color;
+    background-color: $accent-color;
+  }
+}
+
+.portfolio-items-list__overlay {
+  .portfolio-items-list__box:hover & {
+    transform: translateY(0);
+  }
+}
+
+.modal__close-icon {
+  .modal__close-button:hover & {
+    fill: $accent-color;
+  }
+}
+
+.modal__form input {
+  &:hover,
+  &:focus {
+    border: 1px solid $accent-color;
+  }
+}
+
+.modal__form input[type="checkbox"] {
+  width: 16px;
+  height: 15px;
+  border: none;
+  margin: 0 8.38px 0 0;
+  cursor: default;
+}
+
+.modal__form textarea {
+  &:hover,
+  &:focus {
+    border: 1px solid $accent-color;
+  }
+}
+
+// .modal__form input {
+//   &:focus ~ svg.modal__icon-name,
+//   &:hover ~ svg.modal__icon-name {
+//     fill: $accent-color;
+//   }
+// }
+
+.modal__icon-name {
+  .modal__form input:hover + & {
+    fill: $accent-color;
+  }
+}
+
+.modal__icon-name {
+  .modal__labels:hover &,
+  .modal__labels:focus {
+    fill: $accent-color;
+  }
+}
+
+.modal-checkbox__icon-check {
+  .modal-checkbox:checked ~ & {
+    background: $accent-color;
+    border: 2px solid $accent-color;
+  }
+}
+
+.header-list__active {
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    bottom: 0;
+    height: 4px;
+    background-color: $accent-color;
+    position: absolute;
+    border-radius: 2px;
+  }
+}
+
+.modal__form textarea {
+  &::placeholder {
+    color: rgba(117, 117, 117, 0.5);
+  }
+}

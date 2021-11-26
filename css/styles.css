@@ -684,9 +684,9 @@ img {
   overflow: hidden;
 }
 
-.portfolio-items-list__box:hover .portfolio-items-list__overlay {
+/* .portfolio-items-list__box:hover .portfolio-items-list__overlay {
   transform: translatey(0);
-}
+} */
 
 .portfolio-items-list__overlay {
   display: flex;
@@ -840,9 +840,9 @@ img {
   fill: var(--accent-color);
 }
 
-.modal__form textarea::placeholder {
+/* .modal__form textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
-}
+} */
 
 .modal__labels:nth-last-child(2) {
   display: flex;
