@@ -216,18 +216,18 @@ body {
 }
 
 .modal__form textarea::-webkit-input-placeholder {
-  color: rgba(117, 117, 117, 0.6);
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .modal__form textarea:-ms-input-placeholder {
-  color: rgba(117, 117, 117, 0.6);
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .modal__form textarea::-ms-input-placeholder {
-  color: rgba(117, 117, 117, 0.6);
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .modal__form textarea::placeholder {
-  color: rgba(117, 117, 117, 0.6);
+  color: rgba(117, 117, 117, 0.5);
 }
 /*# sourceMappingURL=main.css.map */
