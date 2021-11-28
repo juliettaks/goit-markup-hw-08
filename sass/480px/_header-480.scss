@@ -1,0 +1,59 @@
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+    margin: 0;
+
+    padding: 0;
+  }
+  .header {
+    display: flex;
+    position: relative;
+    padding: 16px 0;
+    justify-content: center;
+  }
+
+  .header-navigation__menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+    height: 796px;
+    padding-left: 40px;
+  }
+
+  .header-navigation__logo {
+    display: none;
+  }
+
+  .header-right {
+    margin: 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-list {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 290px;
+  }
+
+  .header-list__item:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .header-list__active::after {
+    display: none;
+  }
+
+  .header-list__line {
+    border: none;
+  }
+
+  .header-right__mail {
+    padding: 16px 0;
+  }
+}

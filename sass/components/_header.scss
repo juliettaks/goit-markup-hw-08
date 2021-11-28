@@ -7,7 +7,6 @@
 }
 
 .container {
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -21,6 +20,7 @@
 .header-navigation {
   display: flex;
   align-items: center;
+  width: 100%;
 }
 .header-list {
   display: flex;
@@ -120,4 +120,10 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.header-navigation__menu {
+  display: flex;
+  margin-left: auto;
+  width: 100%;
 }
