@@ -1,0 +1,37 @@
+.about-us__icon__background {
+  padding: 25px 100px;
+  background-color: #f5f4fa;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.about-us {
+  padding-top: 94px;
+}
+
+.about-us__list {
+  display: flex;
+  justify-content: center;
+}
+
+.about-us__list__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.about-us__heading {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  margin-bottom: 10px;
+}
+
+.about-us__text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}

@@ -1,0 +1,37 @@
+.all-clients {
+  padding: 94px 0;
+}
+.all-clients__hero {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  margin-bottom: 50px;
+}
+
+.all-clients__link {
+  display: block;
+  padding: 16px 32px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.all-clients__list {
+  display: flex;
+  justify-content: center;
+}
+
+.all-clients__link-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.all-clients__icon {
+  fill: #afb1b8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
